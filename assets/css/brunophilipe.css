@@ -1,0 +1,280 @@
+body, .container
+{
+	background-color: #e0e0e0;
+}
+
+header
+{
+	padding: 0 8px;
+}
+
+footer p
+{
+	font-size: 10px;
+	text-align: right;
+
+	width: 100%;
+}
+
+hr
+{
+	border-color: #444;
+	margin-left: -15px;
+	margin-right: -15px;
+
+	clear: both;
+}
+
+#avatar
+{
+	background-size: cover;
+}
+
+.content
+{
+	height: 100%;
+
+	background-color: #222;
+	color: #fefefe;
+
+	text-align: center;
+
+	overflow: auto;
+
+	font-weight: 200;
+}
+
+.content, .content *
+{
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.content h1
+{
+	font-weight: 400;
+}
+
+article h2
+{
+	font-size: 20px;
+	font-weight: 400;
+}
+
+article h2 a, article h2 a:hover
+{
+	color: #fefefe;
+	text-decoration: none;
+}
+
+article .image
+{
+	width: 100%;
+	height: 260px;
+
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: #fff;
+
+	border-radius: 2px;
+}
+
+article ul.tags
+{
+	padding: 0;
+	float: left;
+	margin-top: 10px;
+	display: inline-block;
+}
+
+article ul.tags li
+{
+	float: left;
+	color: #fefefe;
+	font-size: 12px;
+	display: inline;
+	list-style: none;
+}
+
+article ul.tags li:after
+{
+	content: "|";
+	display: inline;
+	margin: 0 4px;
+}
+
+article ul.tags li:last-of-type:after, article ul.tags li:first-of-type:after
+{
+	content: "";
+	display: inline;
+	margin: 0 4px 0 0;
+}
+
+article p.link
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: right;
+
+	border: 2px solid #fefefe;
+	border-radius: 2px;
+	display: block;
+}
+
+article p.link a
+{
+	color: #fefefe;
+	padding: 0px 6px 2px;
+	display: block;
+}
+
+article p.link a:hover, article p.tags a:hover
+{
+	color: #222;
+	background-color: #fefefe;
+	text-decoration: none;
+}
+
+article.single
+{
+	text-align: left;
+}
+
+article.single div
+{
+	padding: 10px;
+}
+
+article.single h2
+{
+	margin-top: 0px;
+}
+
+.menu
+{
+	margin: 20px 0 0;
+	padding: 0;
+
+	word-spacing: 0;
+	letter-spacing: 0;
+	font-size: 0;
+	display: block;
+}
+
+.menu > li
+{
+	list-style: none;
+	display: inline-block;
+	border: 2px solid #fefefe;
+	border-right: none;
+
+	font-size: 14px;
+}
+
+.menu > li:first-of-type
+{
+	border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px;
+}
+
+.menu > li:last-of-type
+{
+	border-right: 2px solid #fefefe;
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 2px;
+}
+
+.menu > li > a
+{
+	font-weight: 400;
+
+	text-transform: uppercase;
+
+	margin: 0;
+	padding: 2px 8px 2px;
+	display: block;
+
+	color: #fff;
+}
+
+.menu > li > a:hover, .menu > li.active > a
+{
+	background-color: #fefefe;
+	color: #222;
+
+	text-decoration: none;
+}
+
+.social
+{
+	margin: 20px 0 0;
+	padding: 0;
+
+	word-spacing: 0;
+	letter-spacing: 0;
+	font-size: 0;
+	display: block;
+}
+
+.social a
+{
+	background-image: url(../img/social.png);
+	background-size: 192px;
+
+	width: 32px;
+	height: 32px;
+
+	display: inline-block;
+
+	margin: 0px 5px 0px 4px;
+}
+
+.social a#tw {background-position: 0px 32px;}
+.social a#fb {background-position: -32px 32px;}
+.social a#lf {background-position: -64px 32px;}
+.social a#li {background-position: -96px 32px;}
+.social a#gp {background-position: -128px 32px;}
+.social a#gh {background-position: -160px 32px;}
+
+.social a#tw:hover {background-position: 0px 0px;}
+.social a#fb:hover {background-position: -32px 0px;}
+.social a#lf:hover {background-position: -64px 0px;}
+.social a#li:hover {background-position: -96px 0px;}
+.social a#gp:hover {background-position: -128px 0px;}
+.social a#gh:hover {background-position: -160px 0px;}
+
+form input, form textarea
+{
+	width: 70%;
+	padding: 5px 8px;
+
+	border-radius: 2px;
+	border: none;
+}
+
+.submit input
+{
+	background-color: #ddd;
+}
+
+footer
+{
+	margin: 16px 0 20px;
+}
+
+@media only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+	.social a
+	{
+		background-image: url(../img/social@2x.png);
+	}
+}
+
+/* animation preparation */
+div.social a, ul.menu li a
+{
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}

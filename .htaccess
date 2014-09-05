@@ -1,0 +1,15 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{SERVER_PORT} 443
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+
+#RewriteRule ^(software|projects|awstats|sniplib|boomba.txt)(/|$) - [L]
+
+RewriteRule ^(software|projects|sniplib|coffeesys|blog|assets|experiments|.*\.php|.*\.txt)($|/) - [L]
+RewriteRule ^$ - [L]
+
+RewriteRule ^search/(.*)$ index.php?search=1&tag=$1 [NC,L]
+RewriteRule ^project/(\d+).*$ index.php?route=project&id=$1 [NC,L]
+RewriteRule ^(.*)$ index.php?route=page&name=$1 [NC]

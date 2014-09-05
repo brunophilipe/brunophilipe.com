@@ -1,0 +1,37 @@
+body, .container
+{
+	background-color: #333;
+}
+
+div.social a
+{
+	display: inline-block;
+	background-color: #fff;
+	border-radius: 16px;
+}
+
+ul.menu li a
+{
+	visibility: hidden;
+}
+
+article
+{
+	height: 0;
+	overflow: hidden;
+}
+
+hr, footer
+{
+	margin: 0;
+	visibility: hidden;
+}
+
+body, .container, div.social a, ul.menu li a, article, hr, footer
+{
+	-webkit-transition: all 0.3s ease-in-out !important;
+	-moz-transition: all 0.3s ease-in-out !important;
+	-ms-transition: all 0.3s ease-in-out !important;
+	-o-transition: all 0.3s ease-in-out !important;
+	transition: all 0.3s ease-in-out !important;
+}

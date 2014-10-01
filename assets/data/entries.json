@@ -55,7 +55,7 @@
 }, {
     "content": "<p>Cakebrew is a simple App to help in the management of Homebrew formulas. It lets the user do most of the tasks that Homebrew performs, but does so in a nice GUI instead of the terminal.</p><p>To learn more or to download the App, visit its website.</p>",
     "id": "10",
-    "image": "art_cakebrew.jpg",
+    "image": "art_cakebrew.png",
     "subtitle": "Open-source App for Homebrew management.",
     "tags": ["Mac OS"],
     "link_address": "https://www.cakebrew.com/",

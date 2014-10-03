@@ -70,4 +70,13 @@
     "link_address": "http://www.x2048.net/",
     "link_title": "Visit the Website",
     "title": "x2048"
+}, {
+    "content": "<p>'Is It Down?' is a simple but useful widget for the iOS Notification Center. With this tiny tool, you will be able to monitor the status of your favorite websites. This is the perfect tool for Webmasters!</p>",
+    "id": "12",
+    "image": "art_isitdown.jpg",
+    "subtitle": "Website status monitor widget for iOS.",
+    "tags": ["iOS","Widget"],
+    "link_address": "https://brunophilipe.com/software/isitdown/",
+    "link_title": "Visit the Website",
+    "title": "Is It Down?"
 }]

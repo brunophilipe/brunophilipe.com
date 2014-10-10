@@ -135,7 +135,7 @@ function render_page($page_slug)
 	}
 	else
 	{
-		http_response_code(404);
+		header('HTTP/1.0 404 Not Found');
 		$html_main = str_replace("{content}", "<h1>404 – Not Found</h1><p>Are you sure you have the right address?</p>", $html_main);
 	}
 

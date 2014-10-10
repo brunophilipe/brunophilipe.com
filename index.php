@@ -125,8 +125,19 @@ function render_page($page_slug)
 	$pages_json = file_get_contents($root_folder."/assets/data/pages.json");
 	$pages = json_decode($pages_json, true);
 
+	$content = $pages[$page_slug]["content"]."";
+
 	$html_main = str_replace("{menu}", $html_menu, $html_main);
-	$html_main = str_replace("{content}", $pages[$page_slug]["content"], $html_main);
+
+	if (strlen($content) > 0)
+	{
+		$html_main = str_replace("{content}", $pages[$page_slug]["content"], $html_main);
+	}
+	else
+	{
+		http_response_code(404);
+		$html_main = str_replace("{content}", "<h1>404 – Not Found</h1><p>Are you sure you have the right address?</p>", $html_main);
+	}
 
 	echo $html_main;
 }

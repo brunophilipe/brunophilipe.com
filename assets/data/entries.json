@@ -1,5 +1,5 @@
 [{
-    "content": "<p>TipTyper is an plain text editor I have made after getting too much frustrated with some TextEdit problems, mainly regarding copy/paste functionalities.</p>\r\n<p>It has lines display, characters and words counters, full-screen and retina support and many other features.</p><p>Please visit the website for more information and for the download link.</p>",
+    "content": "<p>TipTyper is an plain text editor I have made after getting too much frustrated with some TextEdit problems, mainly regarding copy/paste functionalities.</p><p>It has lines display, characters and words counters, full-screen and retina support and many other features.</p><p>Please visit the website for more information and for the download link.</p>",
     "id": "1",
     "image": "art_tiptyper.png",
     "subtitle": "Simple plain text editor for Mac with lines counter.",
@@ -8,7 +8,7 @@
     "link_title": "Visit the Website",
     "title": "TipTyper"
 }, {
-    "content": "<p>This project involved developing a custom Wordpress template using art and specs already defined by the client.</p>\r\n<p>The project also involved incorporating a sign-up system where users could apply for an event hosted by the client. The system allows the client to view and manage the user's applications on a backend evironment.</p>\r\n<p>To view the final work, please visit the website (in Portuguese)</p><p>No longer available, template changed ever since.</p>",
+    "content": "<p>This project involved developing a custom Wordpress template using art and specs already defined by the client.</p><p>The project also involved incorporating a sign-up system where users could apply for an event hosted by the client. The system allows the client to view and manage the user's applications on a backend evironment.</p><p>To view the final work, please visit the website (in Portuguese)</p><p>No longer available, template changed ever since.</p>",
     "id": "4",
     "image": "art_spmun.jpg",
     "subtitle": "Large project for a client, involving a wordpress template and a PHP application system.",
@@ -17,7 +17,7 @@
     "link_title": "Visit the Website",
     "title": "SPMUM Website"
 }, {
-    "content": "<p>With NeatStocks you can post about your favorite socks on Facebook and Twitter using the built-in social poster. Do not even worry about login-in on those services again because NeatStocks uses the system information you set up on the Settings app.</p>\r\n<p>The App is available on the App Store for free.</p>\r\n<p>If you want to download or read more about NeatStocks, please visit it's own website.</p>",
+    "content": "<p>With NeatStocks you can post about your favorite socks on Facebook and Twitter using the built-in social poster. Do not even worry about login-in on those services again because NeatStocks uses the system information you set up on the Settings app.</p><p>The App is available on the App Store for free.</p><p>If you want to download or read more about NeatStocks, please visit it's own website.</p><p>Development-to-Release time: 2 weeks</p>",
     "id": "5",
     "image": "art_neatstocks.jpg",
     "subtitle": "Stocks quotes App for iPhone and iPad. Displays live stocks data on a beautiful fullscreen interface.",
@@ -26,7 +26,7 @@
     "link_title": "Visit the Website",
     "title": "NeatStocks"
 }, {
-    "content": "<p>HomeBoxer generates elegant static websites with little effort. It is all done from a simple user interface, without the input of real files.</p>\r\n<p>It includes a simple inline editor with lines counter and helps the user inserting files or images with a resources manager.</p>\r\n<p>\r\nFor more information, visit its website.",
+    "content": "<p>HomeBoxer generates elegant static websites with little effort. It is all done from a simple user interface, without the input of real files.</p><p>It includes a simple inline editor with lines counter and helps the user inserting files or images with a resources manager.</p><p>For more information, visit its website.<p>Development-to-Release time: 1 week</p>",
     "id": "7",
     "image": "art_homeboxer.png",
     "subtitle": "Simple static websites generator that uses Markdown or HTML input.",
@@ -35,7 +35,7 @@
     "link_title": "Visit the Website",
     "title": "HomeBoxer"
 }, {
-    "content": "<p>autobash is a simple library tool to help you run needed bash files.</p>\r\n<p>Instead of memorizing the path of bash files, simply call autobash followed by the name of the file to run it. For example: I use it to retreive certain web files to different folders.</p>\r\n<p>\r\nFor more information, visit its website.\r\n",
+    "content": "<p>autobash is a simple library tool to help you run needed bash files.</p><p>Instead of memorizing the path of bash files, simply call autobash followed by the name of the file to run it. For example: I use it to retreive certain web files to different folders.</p><p>For more information, visit its website.",
     "id": "8",
     "image": "art_autobash.jpg",
     "subtitle": "Console tool to assist in the execution of bash files.",
@@ -44,7 +44,7 @@
     "link_title": "Visit the Website",
     "title": "autobash"
 }, {
-    "content": "<p>This is a simple companion app I developed for the world popular geek event called Campus Party &mdash; more precisely, for the 2014 Brazilian edition.</p>\n<p>The App displays: a calendar of all presentations and talks listed to happen, ordered by day and hour that supports search for title and contents; A news directory with data pulled from the event's official blog; A calendar of the convention center where the event will be held, including an internal map; and some extra info, like a functionality to open the Maps App to display the shortest route to the location.</p>\n<p>The App is currently available on the App Store. For more information, please visit the App's hot site (in Portuguese).</p>",
+    "content": "<p>This is a simple companion app I developed for the world popular geek event called Campus Party &mdash; more precisely, for the 2014 Brazilian edition.</p>\n<p>The App displays: a calendar of all presentations and talks listed to happen, ordered by day and hour that supports search for title and contents; A news directory with data pulled from the event's official blog; A calendar of the convention center where the event will be held, including an internal map; and some extra info, like a functionality to open the Maps App to display the shortest route to the location.</p>\n<p>The App is currently available on the App Store. For more information, please visit the App's hot site (in Portuguese).</p><p>Development-to-Release time: 3 weeks</p>",
     "id": "9",
     "image": "art_agenda-cpbr7.png",
     "subtitle": "Companion app for the Campus Party Brazil 2014.",
@@ -53,7 +53,7 @@
     "link_title": "Visit the Website",
     "title": "Agenda #cpbr7"
 }, {
-    "content": "<p>Cakebrew is a simple App to help in the management of Homebrew formulas. It lets the user do most of the tasks that Homebrew performs, but does so in a nice GUI instead of the terminal.</p><p>To learn more or to download the App, visit its website.</p>",
+    "content": "<p>Cakebrew is a simple App to help in the management of Homebrew formulas. It lets the user do most of the tasks that Homebrew performs, but does so in a nice GUI instead of the terminal.</p><p>To learn more or to download the App, visit its website.</p><p>Development-to-Release time: 2 weeks</p>",
     "id": "10",
     "image": "art_cakebrew.png",
     "subtitle": "Open-source App for Homebrew management.",
@@ -62,7 +62,7 @@
     "link_title": "Visit the Website",
     "title": "Cakebrew"
 }, {
-    "content": "<p>x2048 is a puzzle game for iPhone, iPad and iPod touch. It is a version of the popular 2048 game, but on an hexagonal board.</p>",
+    "content": "<p>x2048 is a puzzle game for iPhone, iPad and iPod touch. It is a version of the popular 2048 game, but on an hexagonal board.</p><p>Development-to-Release time: 3 weeks</p>",
     "id": "11",
     "image": "art_x2048.jpg",
     "subtitle": "Puzzle game for iPhone, iPod touch and iPad.",
@@ -71,7 +71,7 @@
     "link_title": "Visit the Website",
     "title": "x2048"
 }, {
-    "content": "<p>'Is It Down?' is a simple but useful widget for the iOS Notification Center. With this tiny tool, you will be able to monitor the status of your favorite websites. This is the perfect tool for Webmasters!</p>",
+    "content": "<p>'Is It Down?' is a simple but useful widget for the iOS Notification Center. With this tiny tool, you will be able to monitor the status of your favorite websites. This is the perfect tool for Webmasters!</p><p>Development-to-Release time: 1 week</p>",
     "id": "12",
     "image": "art_isitdown.jpg",
     "subtitle": "Website status monitor widget for iOS.",

@@ -45,7 +45,7 @@ function render_homepage()
 		$html_menu = _renderMenu(-1);
 	}
 
-	usort($entries, '_sort_objects_by_id_inverse');
+	// usort($entries, '_sort_objects_by_id_inverse');
 
 	// Get entry html
 	$html_entry = file_get_contents($root_folder."/assets/templates/entry.html");

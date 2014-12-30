@@ -32,12 +32,13 @@ if ($denied)
 				<li><a href="/">Home</a></li><li><a href="/about">About</a></li><li><a href="/contact">Contact</a></li><li><a href="http://blog.brunophilipe.com/">Blog</a></li>
 			</ul>
 			<div class="social">
-				<a id="fb" target="_blank" href="http://facebook.com/brunophilipe"></a>
-				<a id="tw" target="_blank" href="http://twitter.com/brunophilipe"></a>
-				<a id="lf" target="_blank" href="http://www.last.fm/user/brunoresende29"></a>
-				<a id="li" target="_blank" href="http://www.linkedin.com/pub/bruno-philipe-resende-silva/33/416/ba7"></a>
-				<a id="gh" target="_blank" href="http://www.github.com/brunophilipe"></a>
-				<a id="gp" target="_blank" href="https://plus.google.com/u/0/+BrunoPhilipe"></a>
+				<a id="fb" target="_blank" title="Facebook" href="https://facebook.com/brunophilipe"></a>
+				<a id="tw" target="_blank" title="Twitter" href="https://twitter.com/brunophilipe"></a>
+				<a id="lf" target="_blank" title="Last.fm" href="https://www.last.fm/user/brunoresende29"></a>
+				<a id="li" target="_blank" title="LinkedIn" href="https://www.linkedin.com/pub/bruno-philipe-resende-silva/33/416/ba7"></a>
+				<a id="gh" target="_blank" title="GitHub" href="https://www.github.com/brunophilipe"></a>
+				<a id="bb" target="_blank" title="BitBucket" href="https://bitbucket.org/brunophilipe"></a>
+				<a id="gp" target="_blank" title="Google+" href="https://plus.google.com/u/0/+BrunoPhilipe"></a>
 			</div>
 			<hr>
 <?php

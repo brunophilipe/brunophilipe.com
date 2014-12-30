@@ -1,5 +1,5 @@
 [{
-    "content": "<p>TipTyper is an plain text editor I have made after getting too much frustrated with some TextEdit problems, mainly regarding copy/paste functionalities.</p><p>It has lines display, characters and words counters, full-screen and retina support and many other features.</p><p>Please visit the website for more information and for the download link.</p>",
+    "content": "<p>TipTyper is an plain text editor I have made after getting frustrated with TextEdit, mainly regarding copy/paste functionalities.</p><p>It counts lines, characters and words, can display invisible charactes (such as space and new line), has full-screen and retina support and many other features.</p><p>This is my longest and oldest project that is still under development, and throughout the years I've refactored parts of the program multiple times based on the evolution of my knowledge of the Cocoa API.</p><p>Please visit the website for more information and for the download link.</p><p>The initial developement time was about two weeks, and the first release was in March 2013.</p>",
     "id": "1",
     "image": "art_tiptyper.png",
     "subtitle": "Simple plain text editor for Mac with lines counter.",
@@ -7,6 +7,69 @@
     "link_address": "https://brunophilipe.com/software/tiptyper",
     "link_title": "Visit the Website",
     "title": "TipTyper"
+}, {
+    "content": "<p>Cakebrew is a simple App to help in the management of Homebrew formulas. It lets the user do most of the tasks that Homebrew performs, but does so in a nice GUI instead of the terminal.</p><p>In this app a heavy use of concurrent threads was required for running the homebrew tasks without blocking the UI. It has ever since gathered a large amout of users and many developers have contributed to the codebase from GitHub.</p><p>To check out the GitHub repository or to download the App, please visit its website.</p><p>Development-to-Release time: 2 weeks</p>",
+    "id": "10",
+    "image": "art_cakebrew.png",
+    "subtitle": "Open-source App for Homebrew management.",
+    "tags": ["Mac OS"],
+    "link_address": "https://www.cakebrew.com/",
+    "link_title": "Visit the Website",
+    "title": "Cakebrew"
+}, {
+    "content": "<p>x2048 is a puzzle game for iPhone, iPad and iPod touch. It is a version of the popular 2048 game, but on an hexagonal board.</p><p>It was my first proper game for iOS. It was made using Apple's SpriteKit. One of the main challenges was creating the recursive algorithm that calculates the movement for each disc, detecting discs movements and merges.</p><p>Development-to-Release time: 3 weeks</p>",
+    "id": "11",
+    "image": "art_x2048.jpg",
+    "subtitle": "Puzzle game for iPhone, iPod touch and iPad.",
+    "tags": ["iOS","Game"],
+    "link_address": "http://www.x2048.net/",
+    "link_title": "Visit the Website",
+    "title": "x2048"
+}, {
+    "content": "<p>NeatStocks is a simple stocks quotes App. It was my second app published on the App Store, for free.</p><p>It was a further experiment with the Cocoa-touch APIs such as URL requests and CoreGraphics animations.</p><p>If you want to download or read more about NeatStocks, please visit it's own website.</p><p>Development-to-Release time: 2 weeks</p>",
+    "id": "5",
+    "image": "art_neatstocks.jpg",
+    "subtitle": "Stocks quotes App for iPhone and iPad. Displays live stocks data on a beautiful fullscreen interface.",
+    "tags": ["iOS"],
+    "link_address": "https://brunophilipe.com/software/neatstocks/",
+    "link_title": "Visit the Website",
+    "title": "NeatStocks"
+}, {
+    "content": "<p>This is a simple companion app I developed for the world popular geek event called Campus Party &mdash; more precisely, for the 2014 Brazilian edition.</p>\n<p>The App displays: a calendar of all presentations and talks schedulled to happen, ordered by day and hour with search support; A news directory with data pulled from the event's official blog; A composite map of the convention center where the event will be held and its interior; and some extra info, like a functionality to open the Maps App to display the shortest route to the location.</p>\n<p>I learned a lot about remote requests on iOS, handling connections, erros and unexpected outputs. The automatic content update functionality involves compressions and handling this task was also a new challenge for me.</p>\n<p>The App is currently available on the App Store. For more information, please visit the App's hot site (in Portuguese).</p><p>Development-to-Release time: 3 weeks</p>",
+    "id": "9",
+    "image": "art_agenda-cpbr7.png",
+    "subtitle": "Companion app for the Campus Party Brazil 2014.",
+    "tags": ["iOS"],
+    "link_address": "https://brunophilipe.com/software/agenda-cpbr/",
+    "link_title": "Visit the Website",
+    "title": "Agenda #cpbr7"
+}, {
+    "content": "<p>'Is It Down?' is a simple but useful widget for the iOS Notification Center. It was my very first widget for iOS, and a WatchKit companion is already in the works.</p><p>With this tiny tool, you are able to monitor the status of your favorite websites. This is the perfect tool for Webmasters!</p><p>Development-to-Release time: 1 week</p>",
+    "id": "12",
+    "image": "art_isitdown.jpg",
+    "subtitle": "Website status monitor widget for iOS.",
+    "tags": ["iOS","Widget"],
+    "link_address": "https://brunophilipe.com/software/isitdown/",
+    "link_title": "Visit the Website",
+    "title": "Is It Down?"
+}, {
+    "content": "<p>HomeBoxer generates simple but elegant static websites with little effort. It is all done from a simple user interface, without the input of real files.</p><p>The user simply inputs text on an inline editor with lines counter and helps the user inserting files or images with a resource manager.</p><p>For more information, visit its website.<p>Development-to-Release time: 1 week</p>",
+    "id": "7",
+    "image": "art_homeboxer.png",
+    "subtitle": "Simple static websites generator that uses Markdown or HTML input.",
+    "tags": ["Mac OS"],
+    "link_address": "https://brunophilipe.com/software/homeboxer/",
+    "link_title": "Visit the Website",
+    "title": "HomeBoxer"
+}, {
+    "content": "<p>autobash is a simple library tool to help you store and run bash files.</p><p>Instead of memorizing the path of bash files, simply call autobash followed by the name of the file to run it. For example: I use it to retreive certain web files to different folders by simply calling <code>autobash retreive</code>.</p><p>For more information, visit its website.",
+    "id": "8",
+    "image": "art_autobash.jpg",
+    "subtitle": "Console tool to assist in the execution of bash files.",
+    "tags": ["Mac OS","GNU/Linux","Terminal"],
+    "link_address": "https://brunophilipe.com/software/autobash/",
+    "link_title": "Visit the Website",
+    "title": "autobash"
 }, {
     "content": "<p>This project involved developing a custom Wordpress template using art and specs already defined by the client.</p><p>The project also involved incorporating a sign-up system where users could apply for an event hosted by the client. The system allows the client to view and manage the user's applications on a backend evironment.</p><p>To view the final work, please visit the website (in Portuguese)</p><p>No longer available, template changed ever since.</p>",
     "id": "4",
@@ -16,67 +79,4 @@
     "link_address": "http://www.spmun.com.br",
     "link_title": "Visit the Website",
     "title": "SPMUM Website"
-}, {
-    "content": "<p>With NeatStocks you can post about your favorite socks on Facebook and Twitter using the built-in social poster. Do not even worry about login-in on those services again because NeatStocks uses the system information you set up on the Settings app.</p><p>The App is available on the App Store for free.</p><p>If you want to download or read more about NeatStocks, please visit it's own website.</p><p>Development-to-Release time: 2 weeks</p>",
-    "id": "5",
-    "image": "art_neatstocks.jpg",
-    "subtitle": "Stocks quotes App for iPhone and iPad. Displays live stocks data on a beautiful fullscreen interface.",
-    "tags": ["iOS"],
-    "link_address": "https://brunophilipe.com/software/neatstocks/",
-    "link_title": "Visit the Website",
-    "title": "NeatStocks"
-}, {
-    "content": "<p>HomeBoxer generates elegant static websites with little effort. It is all done from a simple user interface, without the input of real files.</p><p>It includes a simple inline editor with lines counter and helps the user inserting files or images with a resources manager.</p><p>For more information, visit its website.<p>Development-to-Release time: 1 week</p>",
-    "id": "7",
-    "image": "art_homeboxer.png",
-    "subtitle": "Simple static websites generator that uses Markdown or HTML input.",
-    "tags": ["Mac OS"],
-    "link_address": "https://brunophilipe.com/software/homeboxer/",
-    "link_title": "Visit the Website",
-    "title": "HomeBoxer"
-}, {
-    "content": "<p>autobash is a simple library tool to help you run needed bash files.</p><p>Instead of memorizing the path of bash files, simply call autobash followed by the name of the file to run it. For example: I use it to retreive certain web files to different folders.</p><p>For more information, visit its website.",
-    "id": "8",
-    "image": "art_autobash.jpg",
-    "subtitle": "Console tool to assist in the execution of bash files.",
-    "tags": ["Mac OS","GNU/Linux","Terminal"],
-    "link_address": "https://brunophilipe.com/software/autobash/",
-    "link_title": "Visit the Website",
-    "title": "autobash"
-}, {
-    "content": "<p>This is a simple companion app I developed for the world popular geek event called Campus Party &mdash; more precisely, for the 2014 Brazilian edition.</p>\n<p>The App displays: a calendar of all presentations and talks listed to happen, ordered by day and hour that supports search for title and contents; A news directory with data pulled from the event's official blog; A calendar of the convention center where the event will be held, including an internal map; and some extra info, like a functionality to open the Maps App to display the shortest route to the location.</p>\n<p>The App is currently available on the App Store. For more information, please visit the App's hot site (in Portuguese).</p><p>Development-to-Release time: 3 weeks</p>",
-    "id": "9",
-    "image": "art_agenda-cpbr7.png",
-    "subtitle": "Companion app for the Campus Party Brazil 2014.",
-    "tags": ["iOS"],
-    "link_address": "https://brunophilipe.com/software/agenda-cpbr/",
-    "link_title": "Visit the Website",
-    "title": "Agenda #cpbr7"
-}, {
-    "content": "<p>Cakebrew is a simple App to help in the management of Homebrew formulas. It lets the user do most of the tasks that Homebrew performs, but does so in a nice GUI instead of the terminal.</p><p>To learn more or to download the App, visit its website.</p><p>Development-to-Release time: 2 weeks</p>",
-    "id": "10",
-    "image": "art_cakebrew.png",
-    "subtitle": "Open-source App for Homebrew management.",
-    "tags": ["Mac OS"],
-    "link_address": "https://www.cakebrew.com/",
-    "link_title": "Visit the Website",
-    "title": "Cakebrew"
-}, {
-    "content": "<p>x2048 is a puzzle game for iPhone, iPad and iPod touch. It is a version of the popular 2048 game, but on an hexagonal board.</p><p>Development-to-Release time: 3 weeks</p>",
-    "id": "11",
-    "image": "art_x2048.jpg",
-    "subtitle": "Puzzle game for iPhone, iPod touch and iPad.",
-    "tags": ["iOS","Game"],
-    "link_address": "http://www.x2048.net/",
-    "link_title": "Visit the Website",
-    "title": "x2048"
-}, {
-    "content": "<p>'Is It Down?' is a simple but useful widget for the iOS Notification Center. With this tiny tool, you will be able to monitor the status of your favorite websites. This is the perfect tool for Webmasters!</p><p>Development-to-Release time: 1 week</p>",
-    "id": "12",
-    "image": "art_isitdown.jpg",
-    "subtitle": "Website status monitor widget for iOS.",
-    "tags": ["iOS","Widget"],
-    "link_address": "https://brunophilipe.com/software/isitdown/",
-    "link_title": "Visit the Website",
-    "title": "Is It Down?"
 }]

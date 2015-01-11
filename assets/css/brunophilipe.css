@@ -11,8 +11,6 @@ header
 footer p
 {
 	font-size: 10px;
-	text-align: right;
-
 	width: 100%;
 }
 
@@ -280,3 +278,50 @@ div.social a, ul.menu li a
 	-o-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 }
+
+/* tooltips */
+
+a.tooltips
+{
+	position:relative;
+	display:inline-block;
+}
+
+a.tooltips span
+{
+	position:absolute;
+	width:140px;
+	color:#FFF;
+	background:#000;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	visibility:hidden;
+	border-radius:6px;
+}
+
+a.tooltips span:after
+{
+	content:'';
+	position:absolute;
+	bottom:100%;
+	left:50%;
+	margin-left:-8px;
+	width:0;
+	height:0;
+	border-bottom:8px solid #000;
+	border-right:8px solid transparent;
+	border-left:8px solid transparent
+}
+
+a:hover.tooltips span
+{
+	visibility:visible;
+	opacity:1.0;
+	top:41px;
+	left:50%;
+	margin-left:-71px;
+	z-index:999;
+	font-size: 14px;
+}
+

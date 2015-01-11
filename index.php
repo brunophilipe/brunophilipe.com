@@ -3,6 +3,8 @@
 global $root_folder;
 $root_folder = getcwd();
 
+date_default_timezone_set('UTC');
+
 if (isset($_GET['route'])) {
 	$route = $_GET['route'];
 	if (strcmp($route, "project") == 0 && isset($_GET['id'])) {
@@ -62,6 +64,7 @@ function render_homepage()
 
 	$html_main = str_replace("{menu}", $html_menu, $html_main);
 	$html_main = str_replace("{content}", $html_bulk, $html_main);
+	$html_main = str_replace("{date.year}", date('Y'), $html_main);
 
 	echo $html_main;
 }
@@ -95,6 +98,7 @@ function render_projectpage($project_id)
 
 	$html_main = str_replace("{menu}", $html_menu, $html_main);
 	$html_main = str_replace("{content}", $html_bulk, $html_main);
+	$html_main = str_replace("{date.year}", date('Y'), $html_main);
 
 	echo $html_main;
 }

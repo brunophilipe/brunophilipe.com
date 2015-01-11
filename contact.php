@@ -28,17 +28,17 @@ if ($denied)
 				<h1>Bruno Philipe</h1>
 				<p>Programmer and Web Developer.<br>Currently focused on iOS and OS X development.</p>
 			</header>
-						<ul class="menu">
+			<ul class="menu">
 				<li><a href="/">Home</a></li><li><a href="/about">About</a></li><li><a href="/contact">Contact</a></li><li><a href="http://blog.brunophilipe.com/">Blog</a></li>
 			</ul>
 			<div class="social">
-				<a id="fb" target="_blank" title="Facebook" href="https://facebook.com/brunophilipe"></a>
-				<a id="tw" target="_blank" title="Twitter" href="https://twitter.com/brunophilipe"></a>
-				<a id="lf" target="_blank" title="Last.fm" href="https://www.last.fm/user/brunoresende29"></a>
-				<a id="li" target="_blank" title="LinkedIn" href="https://www.linkedin.com/pub/bruno-philipe-resende-silva/33/416/ba7"></a>
-				<a id="gh" target="_blank" title="GitHub" href="https://www.github.com/brunophilipe"></a>
-				<a id="bb" target="_blank" title="BitBucket" href="https://bitbucket.org/brunophilipe"></a>
-				<a id="gp" target="_blank" title="Google+" href="https://plus.google.com/u/0/+BrunoPhilipe"></a>
+				<a id="fb" class="tooltips" target="_blank" title="Facebook" href="https://facebook.com/brunophilipe"><span>Facebook</span></a>
+				<a id="tw" class="tooltips" target="_blank" title="Twitter" href="https://twitter.com/brunophilipe"><span>Twitter</span></a>
+				<a id="lf" class="tooltips" target="_blank" title="Last.fm" href="https://www.last.fm/user/brunoresende29"><span>Last.fm</span></a>
+				<a id="li" class="tooltips" target="_blank" title="LinkedIn" href="https://www.linkedin.com/pub/bruno-philipe-resende-silva/33/416/ba7"><span>LinkedIn</span></a>
+				<a id="gh" class="tooltips" target="_blank" title="GitHub" href="https://www.github.com/brunophilipe"><span>GitHub</span></a>
+				<a id="bb" class="tooltips" target="_blank" title="BitBucket" href="https://bitbucket.org/brunophilipe"><span>BitBucket</span></a>
+				<a id="gp" class="tooltips" target="_blank" title="Google+" href="https://plus.google.com/u/0/+BrunoPhilipe"><span>Google+</span></a>
 			</div>
 			<hr>
 <?php

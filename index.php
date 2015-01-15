@@ -132,6 +132,7 @@ function render_page($page_slug)
 	$content = $pages[$page_slug]["content"]."";
 
 	$html_main = str_replace("{menu}", $html_menu, $html_main);
+	$html_main = str_replace("{date.year}", date('Y'), $html_main);
 
 	if (strlen($content) > 0)
 	{

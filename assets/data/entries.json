@@ -26,15 +26,6 @@
     "link_title": "Visit the Website",
     "title": "x2048"
 }, {
-    "content": "<p>NeatStocks is a simple stocks quotes App. It was my second app published on the App Store, for free.</p><p>It was a further experiment with the Cocoa-touch APIs such as URL requests and CoreGraphics animations.</p><p>If you want to download or read more about NeatStocks, please visit it's own website.</p><p>Development-to-Release time: 2 weeks</p>",
-    "id": "5",
-    "image": "art_neatstocks.jpg",
-    "subtitle": "Stocks quotes App for iPhone and iPad. Displays live stocks data on a beautiful fullscreen interface.",
-    "tags": ["iOS"],
-    "link_address": "https://brunophilipe.com/software/neatstocks/",
-    "link_title": "Visit the Website",
-    "title": "NeatStocks"
-}, {
     "content": "<p>This is a simple companion app I developed for the world popular geek event called Campus Party &mdash; more precisely, for the 2014 Brazilian edition.</p>\n<p>The App displays: a calendar of all presentations and talks schedulled to happen, ordered by day and hour with search support; A news directory with data pulled from the event's official blog; A composite map of the convention center where the event will be held and its interior; and some extra info, like a functionality to open the Maps App to display the shortest route to the location.</p>\n<p>I learned a lot about remote requests on iOS, handling connections, erros and unexpected outputs. The automatic content update functionality involves compressions and handling this task was also a new challenge for me.</p>\n<p>The App is currently available on the App Store. For more information, please visit the App's hot site (in Portuguese).</p><p>Development-to-Release time: 3 weeks</p>",
     "id": "9",
     "image": "art_agenda-cpbr7.png",

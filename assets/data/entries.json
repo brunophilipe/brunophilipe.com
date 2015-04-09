@@ -61,13 +61,4 @@
     "link_address": "https://brunophilipe.com/software/autobash/",
     "link_title": "Visit the Website",
     "title": "autobash"
-}, {
-    "content": "<p>This project involved developing a custom Wordpress template using art and specs already defined by the client.</p><p>The project also involved incorporating a sign-up system where users could apply for an event hosted by the client. The system allows the client to view and manage the user's applications on a backend evironment.</p><p>To view the final work, please visit the website (in Portuguese)</p><p>No longer available, template changed ever since.</p>",
-    "id": "4",
-    "image": "art_spmun.jpg",
-    "subtitle": "Large project for a client, involving a wordpress template and a PHP application system.",
-    "tags": ["Web","PHP"],
-    "link_address": "http://www.spmun.com.br",
-    "link_title": "Visit the Website",
-    "title": "SPMUM Website"
 }]

@@ -1,4 +1,13 @@
 [{
+    "content": "<p>Cakebrew is a simple App to help in the management of Homebrew formulas. It lets the user do most of the tasks that Homebrew performs, but does so in a nice GUI instead of the terminal.</p><p>In this app a heavy use of concurrent threads was required for running the homebrew tasks without blocking the UI. It has ever since gathered a large amout of users and many developers have contributed to the codebase from GitHub.</p><p>To check out the GitHub repository or to download the App, please visit its website.</p><p>Development-to-Release time: 2 weeks</p>",
+    "id": "10",
+    "image": "art_cakebrew.png",
+    "subtitle": "Open-source App for Homebrew management.",
+    "tags": ["Mac OS"],
+    "link_address": "https://www.cakebrew.com/",
+    "link_title": "Visit the Website",
+    "title": "Cakebrew"
+}, {
     "content": "<p>TipTyper is an plain text editor I have made after getting frustrated with TextEdit, mainly regarding copy/paste functionalities.</p><p>It counts lines, characters and words, can display invisible charactes (such as space and new line), has full-screen and retina support and many other features.</p><p>This is my longest and oldest project that is still under development, and throughout the years I've refactored parts of the program multiple times based on the evolution of my knowledge of the Cocoa API.</p><p>Please visit the website for more information and for the download link.</p><p>The initial developement time was about two weeks, and the first release was in March 2013.</p>",
     "id": "1",
     "image": "art_tiptyper.png",
@@ -8,14 +17,14 @@
     "link_title": "Visit the Website",
     "title": "TipTyper"
 }, {
-    "content": "<p>Cakebrew is a simple App to help in the management of Homebrew formulas. It lets the user do most of the tasks that Homebrew performs, but does so in a nice GUI instead of the terminal.</p><p>In this app a heavy use of concurrent threads was required for running the homebrew tasks without blocking the UI. It has ever since gathered a large amout of users and many developers have contributed to the codebase from GitHub.</p><p>To check out the GitHub repository or to download the App, please visit its website.</p><p>Development-to-Release time: 2 weeks</p>",
-    "id": "10",
-    "image": "art_cakebrew.png",
-    "subtitle": "Open-source App for Homebrew management.",
-    "tags": ["Mac OS"],
-    "link_address": "https://www.cakebrew.com/",
+    "content": "<p>This is a simple BTC and LTC wallet ticker App for iPhone, iPad, iPod touch and Apple Watch. It displays the current balance of your addresses and the latest prices from the local brazilian exchange \"Mercado Bitcoin\".</p><p>The Apple Watch app is a simple version of the app that displays the prices of BTC and LTC, and the balance of your addresses. As a convenience, it can also display a QR code to any of the addresses.</p>",
+    "id": "1",
+    "image": "art_tickerbtc.png",
+    "subtitle": "BTC and LTC ticker app with support for Apple Watch.",
+    "tags": ["iOS", "WatchKit"],
+    "link_address": "https://brunophilipe.com/software/tickermercadobtc",
     "link_title": "Visit the Website",
-    "title": "Cakebrew"
+    "title": "Ticker Mercado BTC"
 }, {
     "content": "<p>x2048 is a puzzle game for iPhone, iPad and iPod touch. It is a version of the popular 2048 game, but on an hexagonal board.</p><p>It was my first proper game for iOS. It was made using Apple's SpriteKit. One of the main challenges was creating the recursive algorithm that calculates the movement for each disc, detecting discs movements and merges.</p><p>Development-to-Release time: 3 weeks</p>",
     "id": "11",

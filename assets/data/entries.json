@@ -18,7 +18,7 @@
     "title": "TipTyper"
 }, {
     "content": "<p>This is a simple BTC and LTC wallet ticker App for iPhone, iPad, iPod touch and Apple Watch. It displays the current balance of your addresses and the latest prices from the local brazilian exchange \"Mercado Bitcoin\".</p><p>The Apple Watch app is a simple version of the app that displays the prices of BTC and LTC, and the balance of your addresses. As a convenience, it can also display a QR code to any of the addresses.</p>",
-    "id": "1",
+    "id": "13",
     "image": "art_tickerbtc.png",
     "subtitle": "BTC and LTC ticker app with support for Apple Watch.",
     "tags": ["iOS", "WatchKit"],

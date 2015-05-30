@@ -23,6 +23,9 @@ hr
 	clear: both;
 }
 
+::-moz-selection { color: #b1fffe;  background: #c337eb; }
+::selection      { color: #b1fffe;  background: #c337eb; } 
+
 #avatar
 {
 	background-size: cover;

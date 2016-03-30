@@ -53,6 +53,15 @@ a.keydownload:hover
 	background-image: url(/assets/img/download_cert_hover.png);
 }
 
+/* Small screens */
+@media(max-width:767px)
+{
+	.certslist li
+	{
+		background-size: 48px;
+	}
+}
+
 @media 
 (-webkit-min-device-pixel-ratio: 2), 
 (min-resolution: 192dpi)

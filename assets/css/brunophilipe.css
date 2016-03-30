@@ -219,6 +219,8 @@ article.single h2
 	letter-spacing: 0;
 	font-size: 0;
 	display: block;
+
+	overflow-x: hidden;
 }
 
 .social a

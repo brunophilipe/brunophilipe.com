@@ -2,13 +2,14 @@
 RewriteEngine On
 RewriteBase /
 
-RewriteCond %{HTTP_HOST} ^brunophilipe\.com [NC]
-RewriteRule (.*) http://www.brunophilipe.com/$1 [R=301,L]
-
 RewriteCond %{HTTPS} !=on
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-RewriteRule ^(software|projects|sniplib|coffeesys|blog|assets|experiments|.*\.php|.*\.txt)($|/) - [L]
+RewriteCond %{HTTP_HOST} !^$
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule ^ https://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+RewriteRule ^(beta|software|projects|sniplib|coffeesys|blog|assets|experiments|.*\.php|.*\.txt)($|/) - [L]
 RewriteRule ^$ - [L]
 
 RewriteRule ^search/(.*)$ index.php?search=1&tag=$1 [NC,L]

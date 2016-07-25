@@ -1,3 +1,8 @@
+html, body, .container
+{
+	min-height: 100vh;
+}
+
 body, .container
 {
 	background-color: #e0e0e0;
@@ -11,7 +16,6 @@ header
 footer p
 {
 	font-size: 10px;
-	width: 100%;
 }
 
 hr
@@ -33,7 +37,7 @@ hr
 
 .content
 {
-	height: 100%;
+	min-height: 100vh;
 
 	background-color: #222;
 	color: #fefefe;
@@ -215,6 +219,8 @@ article.single h2
 	letter-spacing: 0;
 	font-size: 0;
 	display: block;
+
+	overflow-x: hidden;
 }
 
 .slinks a
@@ -260,9 +266,18 @@ form input, form textarea
 	background-color: #ddd;
 }
 
+#footer-spacer
+{
+	display: block;
+	height: 80px;
+}
+
 footer
 {
-	margin: 16px 0 20px;
+	position: absolute;
+	right: 0;
+	left: 0;
+	bottom: 10px;
 }
 
 @media only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
@@ -326,5 +341,10 @@ a:hover.tooltips span
 	margin-left:-71px;
 	z-index:999;
 	font-size: 14px;
+}
+
+.clear
+{
+	clear: both;
 }
 

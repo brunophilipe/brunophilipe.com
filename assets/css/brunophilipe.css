@@ -206,7 +206,7 @@ article.single h2
 	text-decoration: none;
 }
 
-.social
+.slinks
 {
 	margin: 20px 0 0;
 	padding: 0;
@@ -217,9 +217,9 @@ article.single h2
 	display: block;
 }
 
-.social a
+.slinks a
 {
-	background-image: url(../img/social.png);
+	background-image: url(../img/slinks.png);
 	background-size: 224px;
 
 	width: 32px;
@@ -230,21 +230,21 @@ article.single h2
 	margin: 0px 5px 0px 4px;
 }
 
-.social a#tw {background-position: 0px 32px;}
-.social a#fb {background-position: -32px 32px;}
-.social a#lf {background-position: -64px 32px;}
-.social a#li {background-position: -96px 32px;}
-.social a#gp {background-position: -128px 32px;}
-.social a#gh {background-position: -160px 32px;}
-.social a#bb {background-position: -192px 32px;}
+.slinks a#tw {background-position: 0px 32px;}
+.slinks a#fb {background-position: -32px 32px;}
+.slinks a#lf {background-position: -64px 32px;}
+.slinks a#li {background-position: -96px 32px;}
+.slinks a#gp {background-position: -128px 32px;}
+.slinks a#gh {background-position: -160px 32px;}
+.slinks a#bb {background-position: -192px 32px;}
 
-.social a#tw:hover {background-position: 0px 0px;}
-.social a#fb:hover {background-position: -32px 0px;}
-.social a#lf:hover {background-position: -64px 0px;}
-.social a#li:hover {background-position: -96px 0px;}
-.social a#gp:hover {background-position: -128px 0px;}
-.social a#gh:hover {background-position: -160px 0px;}
-.social a#bb:hover {background-position: -192px 0px;}
+.slinks a#tw:hover {background-position: 0px 0px;}
+.slinks a#fb:hover {background-position: -32px 0px;}
+.slinks a#lf:hover {background-position: -64px 0px;}
+.slinks a#li:hover {background-position: -96px 0px;}
+.slinks a#gp:hover {background-position: -128px 0px;}
+.slinks a#gh:hover {background-position: -160px 0px;}
+.slinks a#bb:hover {background-position: -192px 0px;}
 
 form input, form textarea
 {
@@ -266,14 +266,14 @@ footer
 }
 
 @media only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
-	.social a
+	.slinks a
 	{
-		background-image: url(../img/social@2x.png);
+		background-image: url(../img/slinks@2x.png);
 	}
 }
 
 /* animation preparation */
-div.social a, ul.menu li a
+div.slinks a, ul.menu li a
 {
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;

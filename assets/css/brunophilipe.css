@@ -270,6 +270,7 @@ form input, form textarea
 {
 	display: block;
 	height: 80px;
+	clear: both;
 }
 
 footer

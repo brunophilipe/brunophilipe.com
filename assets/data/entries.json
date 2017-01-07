@@ -26,7 +26,7 @@
     "link_title": "Visit on GitHub",
     "title": "NixieWatch"
 }, {
-    "content": "<p>An experiment to evaluate how complicated it would be to write an iPod simulator that actually plays music. It uses the Audio librariy of the device it is running from (therefore won't run properly in a simulator).</p><p>Unfortunately Apps that emulate an iPod are vetoed by Apple (guess how many people must have tried that already), so this won't be in the App Store any time soon...</p><p>iPod touch mockup by <a href=\"https://www.dropbox.com/s/4cbrmushf6io3qo/iPod_Touch_Template.psd\" target=\"_blank\">@nola_will</a>.</p>",
+    "content": "<p>An experiment to evaluate how complicated it would be to write an iPod simulator that actually plays music. It uses the Audio library of the device it is running from (therefore won't run properly in a simulator).</p><p>Unfortunately Apps that emulate an iPod are vetoed by Apple (guess how many people must have tried that already), so this won't be in the App Store any time soon...</p><p>iPod touch mockup by <a href=\"https://www.dropbox.com/s/4cbrmushf6io3qo/iPod_Touch_Template.psd\" target=\"_blank\">@nola_will</a>.</p>",
     "id": "15",
     "image": "art_tapwheel.png",
     "subtitle": "Working iPod Classic simulator for iOS",

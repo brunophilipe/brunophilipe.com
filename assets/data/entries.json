@@ -17,6 +17,24 @@
     "link_title": "Visit the Website",
     "title": "TipTyper"
 }, {
+    "content": "<p>An experiment to evaluate how complicated it would be to write an Apple Watch app that behaves like a watch face and that simulates a Nixie-tube watch (kinda like the one Steve Wozniak uses).</p><p>Unfortunately Apps that emulate Apple Watch Faces are vetoed by Apple, so this won't be in the App Store any time soon...</p><p>Apple Watch mockup from <a href=\"http://medialoot.com/item/apple-watch-free-psd-mockup/\" target=\"_blank\">MediaLoot</a>.</p>",
+    "id": "14",
+    "image": "art_nixie.png",
+    "subtitle": "Nixie tube face app for Apple Watch.",
+    "tags": ["iOS", "WatchKit"],
+    "link_address": "https://github.com/brunophilipe/NixieWatch",
+    "link_title": "Visit on GitHub",
+    "title": "NixieWatch"
+}, {
+    "content": "<p>An experiment to evaluate how complicated it would be to write an iPod simulator that actually plays music. It uses the Audio librariy of the device it is running from (therefore won't run properly in a simulator).</p><p>Unfortunately Apps that emulate an iPod are vetoed by Apple (guess how many people must have tried that already), so this won't be in the App Store any time soon...</p><p>iPod touch mockup by <a href=\"https://www.dropbox.com/s/4cbrmushf6io3qo/iPod_Touch_Template.psd\" target=\"_blank\">@nola_will</a>.</p>",
+    "id": "15",
+    "image": "art_tapwheel.png",
+    "subtitle": "Working iPod Classic simulator for iOS",
+    "tags": ["iOS"],
+    "link_address": "https://github.com/brunophilipe/TapWheel",
+    "link_title": "Visit on GitHub",
+    "title": "TapWheel"
+}, {
     "content": "<p>This is a simple BTC and LTC wallet ticker App for iPhone, iPad, iPod touch and Apple Watch. It displays the current balance of your addresses and the latest prices from the local brazilian exchange \"Mercado Bitcoin\".</p><p>The Apple Watch app is a simple version of the app that displays the prices of BTC and LTC, and the balance of your addresses. As a convenience, it can also display a QR code to any of the addresses.</p>",
     "id": "13",
     "image": "art_tickerbtc.png",

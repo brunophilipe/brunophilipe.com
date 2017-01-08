@@ -8,6 +8,6 @@
     "path": "/contact",
     "title": "Contact"
 }, {
-    "path": "http://blog.brunophilipe.com/",
+    "path": "/blog",
     "title": "Blog"
 }]

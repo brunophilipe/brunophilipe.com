@@ -17,6 +17,15 @@
     "link_title": "Visit the Website",
     "title": "TipTyper"
 }, {
+    "content": "<p>tune is a simple command line application to control iTunes. With it you can search for tracks and play them, check the current track, skip, pause, stop, and etc. It uses ncurses and ScriptingBridge. It is still being worked on every now and then.</p><p>For more information visit its repo on GitHub.</p>",
+    "id": "16",
+    "image": "art_tune.png",
+    "subtitle": "Console tool to control iTunes.",
+    "tags": ["Mac OS","Terminal"],
+    "link_address": "https://github.com/brunophilipe/tune",
+    "link_title": "Visit the Repo on GitHub",
+    "title": "tune"
+}, {
     "content": "<p>An experiment to evaluate how complicated it would be to write an Apple Watch app that behaves like a watch face and that simulates a Nixie-tube watch (kinda like the one Steve Wozniak uses).</p><p>Unfortunately Apps that emulate Apple Watch Faces are vetoed by Apple, so this won't be in the App Store any time soon...</p><p>Apple Watch mockup from <a href=\"http://medialoot.com/item/apple-watch-free-psd-mockup/\" target=\"_blank\">MediaLoot</a>.</p>",
     "id": "14",
     "image": "art_nixie.png",
@@ -82,7 +91,7 @@
 }, {
     "content": "<p>autobash is a simple library tool to help you store and run bash files.</p><p>Instead of memorizing the path of bash files, simply call autobash followed by the name of the file to run it. For example: I use it to retreive certain web files to different folders by simply calling <code>autobash retreive</code>.</p><p>For more information, visit its website.",
     "id": "8",
-    "image": "art_autobash.jpg",
+    "image": "art_autobash.png",
     "subtitle": "Console tool to assist in the execution of bash files.",
     "tags": ["Mac OS","GNU/Linux","Terminal"],
     "link_address": "https://brunophilipe.com/software/autobash/",

@@ -8,14 +8,14 @@
     "link_title": "Visit the Website",
     "title": "Cakebrew"
 }, {
-    "content": "<p>TipTyper is an plain text editor I have made after getting frustrated with TextEdit, mainly regarding copy/paste functionalities.</p><p>It counts lines, characters and words, can display invisible charactes (such as space and new line), has full-screen and retina support and many other features.</p><p>This is my longest and oldest project that is still under development, and throughout the years I've refactored parts of the program multiple times based on the evolution of my knowledge of the Cocoa API.</p><p>Please visit the website for more information and for the download link.</p><p>The initial developement time was about two weeks, and the first release was in March 2013.</p>",
+    "content": "<p>Noto is a simple plain text editor written entirelly in Swift.</p><p>It is a complete rewrite of a previous project of mine, <a href=\"/software/tiptyper\">TipTyper</a>, which was written in Objective-C.</p><p>Noto is a lot simpler but still has many features focused in productivity. In short, it is a text editor that combines all the small features I needed in a single package.</p><p>The initial developement time was about two months, and the first release was in June 2017.</p>",
     "id": "1",
-    "image": "art_tiptyper.png",
-    "subtitle": "Simple plain text editor for Mac with lines counter.",
+    "image": "art_noto.png",
+    "subtitle": "Simple plain text editor for macOS written in Swift.",
     "tags": ["Mac OS"],
-    "link_address": "https://brunophilipe.com/software/tiptyper",
+    "link_address": "https://brunophilipe.com/software/noto",
     "link_title": "Visit the Website",
-    "title": "TipTyper"
+    "title": "Noto"
 }, {
     "content": "<p>tune is a simple command line application to control iTunes. With it you can search for tracks and play them, check the current track, skip, pause, stop, and etc. It uses ncurses and ScriptingBridge. It is still being worked on every now and then.</p><p>For more information visit its repo on GitHub.</p>",
     "id": "16",

@@ -53,7 +53,7 @@ if (isset($_GET['send']) && $_GET['send'] == 1) {
 		$email_s_message	= $_POST['message'];
 		$email_s_ip			= $_SERVER['REMOTE_ADDR'];
 
-		$email_to			= "Bruno Philipe <brunophilipe@zoho.com>";
+		$email_to			= "Bruno Philipe <brunoph@me.com>";
 		$email_subject		= "Message sent from contact form in your homepage.";
 		$email_from			= "From: MailMe Contact Form <mailme@brunophilipe.com>\r\nContent-Type: text/html\r\nReply-To: $email_s_name <$email_s_email>\r\n";
 		$email_message		=
